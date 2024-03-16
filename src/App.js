@@ -22,7 +22,7 @@
 // export default App;
 
 
- import React from 'react';
+//  import React from 'react';
 
 // import Toggle from './Toggle'
 // import Togglecolor from './Togglecolor';
@@ -37,28 +37,130 @@
 
 // import Counter from './Counter';
 
-import Fetch from './Fetch';
- const App = () => {
+// import Fetch from './Fetch';
+//  const App = () => {
 
-return (
+// return (
 
-  <>  <h1> hello</h1>
+//   <>  <h1> hello</h1>
 
-  <Fetch />
-  {/* < Togglecolor /> */}
-  {/* <Toggle /> */}
-{/* <Binding /> */}
-  {/* <Togglehover /> */}
+//   <Fetch />
+//   {/* < Togglecolor /> */}
+//   {/* <Toggle /> */}
+// {/* <Binding /> */}
+//   {/* <Togglehover /> */}
 
-  {/* <Parent /> */}
+//   {/* <Parent /> */}
 
-  {/* <Sumtwo /> */}
+//   {/* <Sumtwo /> */}
 
-  {/* <Counter /> */}
-</>
-)
+//   {/* <Counter /> */}
+// </>
+// )
   
- }
+//  }
 
- export default App;
+//  export default App;
 
+
+// import React from 'react'
+// import Fetchdata from './components/Fetchdata'
+// import Number from './components/Number'
+// import Count from './components/Count'
+
+//  import   Parent from './Parent'
+// const App = () => {
+//   return (
+//     <div>App
+//       {/* <Fetchdata/> */}
+//       {/* <Number /> */}
+//       {/*  <Count />  */}
+
+//        <Parent />
+
+
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// import React from 'react'
+// import {Add} from './components/Add'
+// const App = () => {
+//   return (
+//     <div>App
+
+//     <Add />
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// import React from 'react'
+// import { Detailsarr } from './components/Detailsarr'
+// const App = () => {
+//   return (
+//     <div>App
+//     <Detailsarr />
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// import React from 'react'
+// import Formdata from './components/Formdata'
+// const App = () => {
+//   return (
+//     <div>App
+    
+//     <Formdata />
+    
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// import React from 'react'
+// import Formimp from './components/Formimp'
+// const App = () => {
+//   return (
+//     <div>App
+//       <Formimp />
+//       </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import Uncontrolled from './components/Uncontrolled'
+// const App = () => {
+//   return (
+//     <div>App
+//     <Uncontrolled />
+//     </div>
+//   )
+// }
+
+// export default App
+
+import React from 'react'
+import InnerH from './components/InnerH'
+
+const App = () => {
+  return (
+    <div>App
+    <InnerH />
+    </div>
+  )
+}
+
+export default App
