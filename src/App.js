@@ -152,14 +152,37 @@
 
 // export default App
 
-import React from 'react'
-import InnerH from './components/InnerH'
+// import React from 'react'
+// import InnerH from './components/InnerH'
 
+// const App = () => {
+//   return (
+//     <div>App
+//     <InnerH />
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import Fetchapi from './apirequest/Fetchapi';
+// const App = () => {
+//   return (
+//     <div>App
+//     <Fetchapi /></div>
+//   )
+// }
+
+// export default App
+
+import React from 'react'
+import APisearch from './apirequest/APisearch'
 const App = () => {
   return (
     <div>App
-    <InnerH />
-    </div>
+    
+    <APisearch /></div>
   )
 }
 
