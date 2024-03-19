@@ -207,14 +207,28 @@
 // export default App
 
 
+// import React from 'react'
+// import Star from './machinecode/Star'
+// const App = () => {
+//   return (
+//     <div>App
+
+//       <Star />
+//     </div>
+//   )
+// }
+
+// export default App
+
 import React from 'react'
-import Star from './machinecode/Star'
+import Todo from './machinecode/Todo'
 const App = () => {
   return (
     <div>App
 
-      <Star />
+      <Todo />
     </div>
+
   )
 }
 
