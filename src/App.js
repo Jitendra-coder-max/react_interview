@@ -179,13 +179,41 @@
 // 
 
 
+// import React from 'react'
+// import Pagination from './pagination/Pagination'
+// const App = () => {
+//   return (
+//     <div>
+
+//       <Pagination />
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react';
+// import Clickbtn from './components/Clickbtn';
+
+// const App = () => {
+//   return (
+//     <div>App
+
+//       <Clickbtn />
+//     </div>
+//   )
+// }
+
+// export default App
+
+
 import React from 'react'
-import Pagination from './pagination/Pagination'
+import Star from './machinecode/Star'
 const App = () => {
   return (
-    <div>
+    <div>App
 
-      <Pagination />
+      <Star />
     </div>
   )
 }

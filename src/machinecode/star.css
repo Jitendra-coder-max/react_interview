@@ -1,0 +1,29 @@
+.Rating_star {
+    display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh;
+}
+
+.star {
+    margin: 10px;
+    font-size: 70px;
+}
+
+
+button {
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor:pointer
+}
+
+
+.on{
+    color: gold
+  }
+  .off{
+    color: #ccc;
+  }
