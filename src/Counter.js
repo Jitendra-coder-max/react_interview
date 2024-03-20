@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect,useState } from 'react';
 
 
 const Counter = () => {
@@ -18,6 +18,14 @@ const Counter = () => {
     const reset = () => {
         setCount(0);
       };
+
+
+useEffect(() => {
+    
+        console.log("Component render successfully")
+    
+}, [])
+
 
     return (
         <div>

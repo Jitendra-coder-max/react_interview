@@ -220,15 +220,42 @@
 
 // export default App
 
+// import React from 'react'
+// import Todo from './machinecode/Todo'
+// const App = () => {
+//   return (
+//     <div>App
+
+//       <Todo />
+//     </div>
+
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import Counter from './Counter'
+
+// const App = () => {
+//   return (
+//     <div>App
+// <Counter />
+
+//     </div>
+//   )
+// }
+
+// export default App
+
+
 import React from 'react'
-import Todo from './machinecode/Todo'
+import Counterinterval from './Counterinterval'
 const App = () => {
   return (
     <div>App
-
-      <Todo />
+      <Counterinterval />
     </div>
-
   )
 }
 
