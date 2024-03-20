@@ -1,0 +1,13 @@
+.folder{
+   
+    font-weight: 600;
+}
+
+.file{
+
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 10px 15px;
+  
+    font-weight: 600;
+}

@@ -262,14 +262,57 @@
 // export default App
 
 
+// import React from 'react'
+// import Stopwatch from './machinecode/Stopwatch'
+// const App = () => {
+//   return (
+//     <div>App
+
+
+//       <Stopwatch />
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// import React from 'react'
+// import Folder from './machinecode/Folder';
+// import dir from './machinecode/data/folderData'
+
+// const App = () => {
+//   return (
+//     <div>App
+
+//       <Folder dir ={dir}/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// import React from 'react'
+// import Carousel from './machinecode/Carousel'
+// const App = () => {
+//   return (
+//     <div>App
+
+//       <Carousel />
+//     </div>
+//   )
+// }
+
+// export default App
+
 import React from 'react'
-import Stopwatch from './machinecode/Stopwatch'
+// import ProgressmyBar from './machinecode/ProgressmyBar'
+import ProgressmyBar from './machinecode/Progressmybar'
 const App = () => {
   return (
     <div>App
-
-
-      <Stopwatch />
+      <ProgressmyBar />
     </div>
   )
 }
