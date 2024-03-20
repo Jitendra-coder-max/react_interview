@@ -249,12 +249,27 @@
 // export default App
 
 
+// import React from 'react'
+// import Counterinterval from './Counterinterval'
+// const App = () => {
+//   return (
+//     <div>App
+//       <Counterinterval />
+//     </div>
+//   )
+// }
+
+// export default App
+
+
 import React from 'react'
-import Counterinterval from './Counterinterval'
+import Stopwatch from './machinecode/Stopwatch'
 const App = () => {
   return (
     <div>App
-      <Counterinterval />
+
+
+      <Stopwatch />
     </div>
   )
 }
