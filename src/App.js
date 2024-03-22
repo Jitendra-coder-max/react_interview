@@ -306,13 +306,53 @@
 
 // export default App
 
+// import React from 'react'
+// // import ProgressmyBar from './machinecode/ProgressmyBar'
+// import ProgressmyBar from './machinecode/Progressmybar'
+// const App = () => {
+//   return (
+//     <div>App
+//       <ProgressmyBar />
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// import React from 'react'
+// import Displaydata from './intrer/Displaydata'
+// const App = () => {
+//   return (
+//     <div>App
+//       <Displaydata />
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// import React from 'react'
+// import Form from './intrer/Form'
+// const App = () => {
+//   return (
+//     <div>App
+
+//       <Form />
+//     </div>
+//   )
+// }
+
+// export default App
+
 import React from 'react'
-// import ProgressmyBar from './machinecode/ProgressmyBar'
-import ProgressmyBar from './machinecode/Progressmybar'
+import List from './intrer/List'
 const App = () => {
   return (
     <div>App
-      <ProgressmyBar />
+
+      <List />
     </div>
   )
 }
