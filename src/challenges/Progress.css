@@ -1,0 +1,34 @@
+/* .progress-bar-container {
+    width: 90%;
+    height: 20px;
+    border-radius: 5px;
+    background-color: lightgrey;
+    margin-left: 5px;
+  }
+  
+  .progress-bar {
+    
+    height: 100%;
+    border-radius: 5px;
+    background-color: green;
+   
+  }
+  
+   */
+   .progress-bar-container{
+
+    width: 90%;
+    height: 20px;
+    border-radius: 5px;
+    background-color: gray;
+   }
+
+   .progress-bar{
+    height: 100%;
+    border-radius: 5px;
+    background-color: green;
+   }
+
+
+
+
