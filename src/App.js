@@ -442,13 +442,40 @@
 
 // export default App
 
-import React from 'react'
-import HoverCounter from './challenges/HoverCounter'
+// import React from 'react'
+// import HoverCounter from './challenges/HoverCounter'
 
+// const App = () => {
+//   return (
+//     <div>App
+//       <HoverCounter />
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// import React from 'react'
+// import Disabled from './challenges/Disabled'
+// const App = () => {
+//   return (
+//     <div>App
+//       <Disabled />
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+import React from 'react'
+import Celcius from './challenges/Celcius'
 const App = () => {
   return (
     <div>App
-      <HoverCounter />
+
+      <Celcius />
     </div>
   )
 }
