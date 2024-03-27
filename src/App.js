@@ -469,13 +469,65 @@
 // export default App
 
 
+// import React from 'react'
+// import Celcius from './challenges/Celcius'
+// const App = () => {
+//   return (
+//     <div>App
+
+//       <Celcius />
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// import React from 'react'
+// import Click from './challenges/Click'
+// const App = () => {
+//   return (
+//     <div>App
+//       <Click />
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import LabelFilter from './challenges/LabelFilter'
+
+// const App = () => {
+//   return (
+//     <div>App
+//       <LabelFilter />
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import Word from './challenges/Word'
+// const App = () => {
+//   return (
+//     <div>App
+//       <Word />
+//     </div>
+//   )
+// }
+
+// export default App
+
+
 import React from 'react'
-import Celcius from './challenges/Celcius'
+import Tabs from './challenges/Tabs'
 const App = () => {
   return (
     <div>App
 
-      <Celcius />
+      <Tabs />
     </div>
   )
 }
