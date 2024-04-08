@@ -1,0 +1,16 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: transparent; /* Initial background color */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+  
+    /* Add other styles for your navbar */
+  }
+  
+  .navbar.scrolled {
+    background-color: #333; /* Change background color when scrolled */
+    /* You can adjust the color value as per your design */
+  }
+  
+  /* Add more styles for your navbar, such as height, padding, font styles, etc. */
+  

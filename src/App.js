@@ -521,13 +521,168 @@
 // export default App
 
 
+// import React from 'react'
+// import Tabs from './challenges/Tabs'
+// const App = () => {
+//   return (
+//     <div>App
+
+//       <Tabs />
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import Count from './challenges/Count'
+// const App = () => {
+//   return (
+//     <div>App
+//       <Count />
+//     </div>
+//   )
+// }
+
+// export default App
+// import React, { useState } from 'react'
+// import Timer from './challenges/Timer'
+
+
+// const App = () => {
+
+//   const [timer, setTimer] = useState(0)  
+//   return (
+//     <div>App
+//       <Timer />
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import StorageInput from './challenges/StorageInput'
+// const App = () => {
+
+//   return (
+//     <div>App
+//       <StorageInput />
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import Input from './challenges/Input'
+// const App = () => {
+//   return (
+//     <div>App
+
+//       <Input />
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// import React from 'react'
+// import Hide from './Challenge2/Hide'
+// const App = () => {
+//   return (
+//     <div>App
+//       <Hide />
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// import React ,{lazy,Suspense} from 'react'
+// import {BrowserRouter as Router,Link, Routes, Route} from 'react-router-dom'
+
+// import About from './ComponentPage/About'
+// import Contact from './ComponentPage/Contact'
+// import Dashboard from './ComponentPage/Dashboard'
+// import Home from './ComponentPage/Home'
+// import Navbar from './ComponentPage/Navbar'
+
+//  const Home =  lazy(() => import('./ComponentPage/Home'));
+//  const About = lazy(() => import('./ComponentPage/About'))
+// const Dashboard = lazy(() => import('./ComponentPage/Dashboard'))
+// const Contact = lazy(() => import('./ComponentPage/Contact'))
+// const Navbar = lazy(() => import('./ComponentPage/Navbar'))
+//  const CatchRoute = lazy(() => import('./ComponentPage/CatchRoute'))
+// const App = () => {
+//   return (
+//     <div>
+//       <Router>
+//         <Navbar />
+//         <Suspense  fallback={<div> Loading ...</div>}>
+//         <Routes>
+//           <Route path='/' element={ <Home />}/>
+//           <Route path= '/about' element={ <About />} />
+//           <Route path='/contact' element={ <Contact />} />
+//           <Route  path= '/dashboard' element = {<Dashboard/>}/>
+//           <Route path="*" element={<CatchRoute />} />
+//         </Routes>
+//         </Suspense>
+//       </Router>
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import Counter from './challen/Counter'
+// const App = () => {
+//   return (
+//     <div>App
+
+//       <Counter />
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import Ager from './intrer/Ager'
+// const App = () => {
+//   return (
+//     <div>App
+//       <Ager />
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react';
+// import Generator from './intrer/Generator';
+
+
+// const App = () => {
+//   return (
+//     <div>App
+//       <Generator />
+//     </div>
+//   )
+// }
+
+// export default App
+
+
 import React from 'react'
-import Tabs from './challenges/Tabs'
+import Navbar from './intrer/Navbar'
 const App = () => {
   return (
     <div>App
-
-      <Tabs />
+      <Navbar/>
     </div>
   )
 }
