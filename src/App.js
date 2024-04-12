@@ -677,14 +677,51 @@
 // export default App
 
 
-import React from 'react'
-import Navbar from './intrer/Navbar'
+// import React from 'react'
+// import Navbar from './intrer/Navbar'
+// const App = () => {
+//   return (
+//     <div>App
+//       <Navbar/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+
+// import React from 'react';
+// import Concat from './Concat/Concat'
+
+// const App = () => {
+
+// return(
+//   <div>
+//     <h1>App</h1>
+//     <Concat />
+//   </div>
+// )
+// }
+
+// export default App
+
+import React from 'react';
+// import Dis from './revise/Dis'
+// import DisArr from './revise/DisArr';
+
+import Show from './revise/Show'
+import Twoway from './revise/Twoway';
 const App = () => {
-  return (
-    <div>App
-      <Navbar/>
+
+  return(
+    <div>
+      {/* <Dis /> */}
+      {/* <DisArr /> */}
+      {/* <Show /> */}
+      <Twoway />
     </div>
   )
 }
 
-export default App
+export default App;
