@@ -7,6 +7,7 @@ const Folder = ({dir}) => {
 
 if(dir.type==='folder'){
   return (
+    <>
     <div onClick={(e) => {
         setShow(!show);
         e.stopPropagation()
@@ -20,6 +21,7 @@ if(dir.type==='folder'){
             ))}
         </div>
     </div>
+    </>
   )
 }
     else {

@@ -9,6 +9,6 @@
     color: white;
     text-align: center;
     line-height: 30px;
-    transition: width 0.5s ease-in-out;
+    transition: width .5s ease-in-out;
   }
   

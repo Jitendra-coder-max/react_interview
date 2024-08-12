@@ -11,9 +11,9 @@ const Pagination = () => {
 
     //  console.log(data)
 
-    if (data && data.products) {
+    // if (data && data.products) {
       setProducts(data.products);
-    }
+    // }
   };
   console.log(products);
 
@@ -26,23 +26,27 @@ const Pagination = () => {
     setPage(selectedPage);
     }
   };
-
-  return (
+console.log([...Array(products.length / 10)])
+  return (//0,10
     <div>
-      {products.length > 0 && (
+      {
+      // products.length > 0 &&
+       (
         <div className="products">
           {products.slice(page * 10 - 10, page * 10).map((prod) => {
             return (
-              <sapn className="products__single" key={prod.id}>
+              <div className="products__single" key={prod.id}>
                 <img src={prod.thumbnail} alt={prod.title} />
                 <span>{prod.title}</span>
-              </sapn>
+              </div>
             );
           })}
         </div>
       )}
 
-      {products.length > 0 && (
+      {
+      // products.length > 0 &&
+       (
         <div className="pagination">
           <span className={page>1 ? "" : "pagination__disable"}
           onClick={ () => selectPageHandler(page-1)}>◀</span>

@@ -12,10 +12,10 @@ const ProgressmyBar = () => {
           clearInterval(interval); // Stop the interval when progress reaches 100%
           return prevProgress;
         } else {
-          return prevProgress + 10; // Increment progress by 10% every second
+          return prevProgress + 1; // Increment progress by 1% every second mili
         }
       });
-    }, 1000);
+    }, 100);
 
     return () => clearInterval(interval); // Cleanup function to clear the interval
   }, []);

@@ -15,7 +15,8 @@ const Star = () => {
             onMouseLeave={() => setHover(rating)}
           >
             <span className={`star ${num <= (rating || hover) ? "on" : "off"}`}>
-              &#9733;
+              &#9734;
+              {/* &star; */}
             </span>
           </button>
         ))}

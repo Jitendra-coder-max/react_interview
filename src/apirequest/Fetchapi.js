@@ -125,7 +125,9 @@ const Fetchapi = () => {
   const addData = async () => {
     try {
       const res = await axios.post(`https://jsonplaceholder.typicode.com/users`, newUser);
-      setUsers([...users, res.data]);
+      // setUsers([...users, res.data]);
+
+      setUsers( prev => [...prev, res.data])
       setNewUser({ id: null, name: '', username: '', email: '' });
     } catch (error) {
       console.error('Error adding user:', error);

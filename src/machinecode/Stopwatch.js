@@ -59,4 +59,4 @@ const hours = (hour%60).toString().padStart(2,"0")
   )
 }
 
-export default Stopwatch
+export default Stopwatch;
